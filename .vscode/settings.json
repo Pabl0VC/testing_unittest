@@ -1,11 +1,13 @@
+// La carpeta .vscode y el archivo settings.json son generados automáticamente por Visual Studio Code (VSCode) para almacenar configuraciones específicas del entorno de desarrollo.
+// En este caso, el archivo settings.json contiene configuraciones relacionadas con las pruebas de tu proyecto.
 {
     "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./tests",
-        "-p",
-        "test_*.py"
+        "-v",           // Modo verboso: muestra más detalles sobre los tests al ejecutarlos
+        "-s",           // Directorio raíz donde se encuentran las pruebas
+        "./tests",      // El directorio donde están tus tests
+        "-p",           // Patrón de búsqueda para encontrar los archivos de pruebas
+        "test_*.py"     // Busca archivos que empiecen con 'test_' y terminen con '.py'
     ],
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true
+    "python.testing.pytestEnabled": false,  // Desactiva pytest como framework de prueba
+    "python.testing.unittestEnabled": true  // Activa unittest como framework de prueba
 }
