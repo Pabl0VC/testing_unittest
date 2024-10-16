@@ -2,7 +2,7 @@ import unittest
 
 SERVER = 'Server_A'
 
-"""Este módulo contiene ejemplos del uso de diferentes métodos de aserción (assert) 
+"""Este módulo contiene ejemplos del uso de diferentes métodos assert 
 proporcionados por unittest para validar condiciones específicas en pruebas unitarias."""
 class AllAsserts(unittest.TestCase):
     """Esta clase incluye ejemplos de varios tipos de aserciones para probar el comportamiento del código."""
